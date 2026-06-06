@@ -10,4 +10,11 @@ Count = 0
 basic.forever(function () {
     led.toggle(randint(0, 4), randint(0, 10))
     Count += 1
+    if (input.pinIsPressed(TouchPin.P2)) {
+        led.plotBarGraph(
+        input.acceleration(Dimension.X),
+        4096,
+        true
+        )
+    }
 })
