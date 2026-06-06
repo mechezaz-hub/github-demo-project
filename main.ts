@@ -9,5 +9,5 @@ let Count = 0
 Count = 0
 basic.forever(function () {
     led.toggle(randint(0, 4), randint(0, 10))
-    Count += 1
+    Count += 308
 })
