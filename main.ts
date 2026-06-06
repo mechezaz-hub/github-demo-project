@@ -12,7 +12,7 @@ basic.forever(function () {
     Count += 1
     if (input.pinIsPressed(TouchPin.P2)) {
         led.plotBarGraph(
-        input.acceleration(Dimension.X),
+        input.acceleration(Dimension.Y),
         4096,
         true
         )
