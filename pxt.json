@@ -1,5 +1,5 @@
 {
-    "name": "GitHub Demo Project",
+    "name": "GitHub Demo Project - Copy",
     "version": "8.0.0",
     "description": "",
     "dependencies": {
@@ -11,7 +11,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "tutorial-info-cache.json"
+        "tutorial-info-cache.json",
+        "Counter.txt.ts"
     ],
     "testFiles": [
         "test.ts"
