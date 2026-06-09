@@ -1,6 +1,6 @@
 {
-    "name": "GitHub Demo Project - Copy",
-    "version": "8.0.0",
+    "name": "GitHub Demo Project",
+    "version": "2.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -11,8 +11,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "tutorial-info-cache.json",
-        "Counter.txt.ts"
+        "tutorial-info-cache.json"
     ],
     "testFiles": [
         "test.ts"
@@ -24,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
